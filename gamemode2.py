@@ -34,13 +34,13 @@ while(p1_bank > 0 or p2_bank > 0):
             print("You must enter a number!")
         if (p1_bet == 0):
             print("You have to bet something. Try again!")
-        if (p1_bet < 0):
+        elif (p1_bet < 0):
             print("You can't bet negative numbers, don't be cheeky. Try again!")
             p1_bet = 0
-        if (p1_bet > p1_bank):
+        elif (p1_bet > p1_bank):
             print("You don't have enough points to bet that. Try again!")
             p1_bet = 0
-        if(p1_wins == 0 and p2_wins == 0 and 50 < p1_bet):
+        elif(p1_wins == 0 and p2_wins == 0 and 50 < p1_bet):
             print("You cannot bet more than 50 points in the first round!")
             p1_bet = 0
     print("Player 2, enter your secret bet: ")
@@ -51,13 +51,13 @@ while(p1_bank > 0 or p2_bank > 0):
             print("You must enter a number!")
         if (p2_bet == 0):
             print("You have to bet something. Try again!")
-        if (p2_bet < 0):
+        elif (p2_bet < 0):
             print("You can't bet negative numbers, don't be cheeky. Try again!")
             p2_bet = 0
-        if (p2_bet > p2_bank):
+        elif (p2_bet > p2_bank):
             print("You don't have enough points to bet that. Try again!")
             p2_bet = 0
-        if(p1_wins == 0 and p2_wins == 0 and 50 < p2_bet):
+        elif(p1_wins == 0 and p2_wins == 0 and 50 < p2_bet):
             print("You cannot bet more than 50 points in the first round!")
             p2_bet = 0
     
