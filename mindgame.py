@@ -1,7 +1,6 @@
+import json
+
 game_mode: int = 0
-p1Bank: int = 100
-p2Bank: int = 100
-aiBank: int = 100
 
 # Welcome message
 print("\nWelcome to Mindgame!\nSelect your mode by inputting its number.\n")
