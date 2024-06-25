@@ -13,7 +13,7 @@ print("NOTE: You cannot bet more than 50 points in the first round to prevent ch
 print("Good luck!\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
 
 # Main game loop
-while(p1_bank > 0 or p2_bank > 0):
+while(p1_bank > 0 and p2_bank > 0):
     
     # Bank print and bet reset
     p1_bet = 0
